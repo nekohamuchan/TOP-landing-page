@@ -4,7 +4,6 @@
 }
 
 section {
-    border: 1px solid black;
     height: 100vh;
     margin: 0;
 }
@@ -123,6 +122,7 @@ li {
 .quotes {
     font-size: 35px;
     font-style: italic;
+    font-weight: lighter;
 }
 
 .name {
