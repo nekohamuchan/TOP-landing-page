@@ -86,7 +86,7 @@ li {
     text-align: center;
 }
 .second h1{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .images {
@@ -98,13 +98,13 @@ li {
 }
 
 .img-txt {
-    width: 150px;
+    width: 200px;
 }
 
 .images img {
     border: 2px solid #3e8ed8;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 
@@ -127,4 +127,50 @@ li {
     align-self: flex-end;
     font-size: 25px;
     font-weight: bold;
+}
+
+/* last section */
+
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper {
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3e8ed8;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.check button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    flex-shrink: 0;
+    width: 110px;
+    height: 30px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #122333;
+    color: white;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
