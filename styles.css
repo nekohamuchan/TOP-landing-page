@@ -83,9 +83,9 @@ li {
 
 .second {
     padding: 5%;
+    text-align: center;
 }
 .second h1{
-    text-align: center;
     font-size: 30px;
 }
 
@@ -108,3 +108,23 @@ li {
     border-radius: 10px;
 }
 
+/* 3rd section */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25%;
+    gap: 10px;
+}
+
+.quotes {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.name {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
