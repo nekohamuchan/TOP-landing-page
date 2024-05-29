@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -9,7 +10,7 @@ section {
     margin: 0;
 }
 
-/* First section */
+/* 1st section */
 
 /* header */
 .first {
@@ -77,3 +78,33 @@ li {
     border-radius: 5px;
     font-size: 18px;
 }
+
+/* 2nd section */
+
+.second {
+    padding: 5%;
+}
+.second h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 60%;
+}
+
+.img-txt {
+    width: 150px;
+}
+
+.images img {
+    border: 2px solid #3e8ed8;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
